@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:layout_margin="5dp"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="نتيجة الفحص"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eeeeee"
+            android:layout_margin="10dp"
+            android:orientation="vertical"/>
+
+
+        <TextView
+            android:id="@+id/txt_ex_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="النتيجة"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_ex_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="40dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <Button
+            android:id="@+id/btn_ex_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="المزيد"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</com.desarrollodroide.libraryfragmenttransactionextended.SlidingRelativeLayout>

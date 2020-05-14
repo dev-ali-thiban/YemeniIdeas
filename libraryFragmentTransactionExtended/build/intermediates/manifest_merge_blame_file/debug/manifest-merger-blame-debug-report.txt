@@ -1,0 +1,12 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.desarrollodroide.libraryfragmenttransitionextended" >
+4
+5    <uses-sdk
+5-->C:\Users\thiban\AndroidStudioProjects\YemeniIdeas\libraryFragmentTransactionExtended\src\main\AndroidManifest.xml:5:5-46
+6        android:minSdkVersion="14"
+6-->C:\Users\thiban\AndroidStudioProjects\YemeniIdeas\libraryFragmentTransactionExtended\src\main\AndroidManifest.xml:5:5-46
+7        android:targetSdkVersion="28" />
+7-->C:\Users\thiban\AndroidStudioProjects\YemeniIdeas\libraryFragmentTransactionExtended\src\main\AndroidManifest.xml:5:15-44
+8
+9</manifest>
